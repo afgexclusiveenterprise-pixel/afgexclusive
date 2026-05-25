@@ -1,6 +1,7 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import WhatsAppButton from "../components/WhatsAppButton";
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
@@ -73,6 +74,7 @@ function RootComponent() {
       <Header />
       <Outlet />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }
